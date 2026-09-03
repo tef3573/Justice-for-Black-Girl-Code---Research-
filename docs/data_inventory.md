@@ -37,6 +37,17 @@ The focused extract should contain:
 - Employment status, work hours, weeks worked, and job tenure
 - Wage, salary, self-employment, hourly-pay, and compensation measures
 
+## Core cohort extract created
+
+The first focused file, `data/interim/nlsy97_core_cohort.csv`, contains 8,984 respondents and 27 source variables covering respondent ID, baseline demographics, birth month/year, sample type, and age at interview across 21 rounds. It also contains a derived cohort flag.
+
+- Full NLSY97 respondents: 8,984
+- Black female respondents: 1,166
+- Black female interview-age observations before age filtering: 21,902
+- Observed age range before filtering: 12–44
+
+The interim file is excluded from Git. It can be reproduced from the official archive with `src/build_core_cohort.py`.
+
 ## Restricted data boundary
 
 Restricted-use geocode and school-survey files have not been acquired. They must not be stored in this public GitHub repository. Any future request for restricted data will require a separate approved access process and secure storage plan.

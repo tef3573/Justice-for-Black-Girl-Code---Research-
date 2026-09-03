@@ -14,7 +14,7 @@ The primary explanatory method will be generalized structural equation modeling.
 
 ## Current milestone
 
-Milestone 1 establishes the project structure and documents the approved research design. Data extraction and analysis code will be added in later milestones.
+The official NLSY97 public-use package for rounds 1–21 (1997–2023) is stored locally in the Git-ignored `data/raw/` directory. A reproducible core cohort extract now identifies 1,166 Black female respondents and retains interview ages across every round. See `docs/data_inventory.md` for the source, checksum, file inventory, and current extraction status.
 
 ## Repository structure
 

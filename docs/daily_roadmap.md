@@ -17,7 +17,8 @@ Each milestone should end with runnable code, updated documentation, and a focus
 
 ## Milestone 3 — Cohort construction
 
-- Select the focal and comparison populations
+- Select the focal and comparison populations — **completed for the focal Black-female cohort**
+- Retain and verify interview-age measures across all rounds — **completed**
 - Convert survey rounds into person-age records
 - Retain ages 15–23
 - Audit duplicate and missing person-age observations
