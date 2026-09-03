@@ -24,7 +24,3 @@ Milestone 1 establishes the project structure and documents the approved researc
 - `src/`: future reusable analysis code
 - `tests/`: future automated checks
 - `outputs/`: generated tables, figures, and model files
-
-## Data policy
-
-Do not commit NLSY97 extracts, restricted-use files, direct identifiers, or credentials. Only code, documentation, configuration, and disclosure-safe outputs belong in this repository.
