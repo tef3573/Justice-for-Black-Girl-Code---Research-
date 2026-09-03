@@ -6,7 +6,7 @@ data/processed/*
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 
-# Generated artifacts
+# artifacts
 outputs/figures/*
 outputs/tables/*
 outputs/models/*
