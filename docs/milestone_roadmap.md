@@ -45,6 +45,17 @@ Each milestone should end with runnable code, updated documentation, and a focus
 - Do not start Milestone 6 until the final merged analysis dataset, weights,
   temporal ordering, missing-data rules, and outcome definitions pass validation
 
+## Approved design amendments
+
+- Keep the approved labels `socioeconomic risk` and `STEM educational quality`
+- Explain their measurable operational forms in the white paper
+- Expand to planned race-by-gender comparisons while keeping Black girls and
+  women as the focal population
+- Use ages 15–17 as the common socioeconomic exposure window and age 23 as the
+  primary outcome point
+- Use ELS:2002 for supplementary STEM measurement validation
+- Use ACS and Opportunity Atlas only after valid geographic linkage
+
 ## Milestone 6 — Statistical models
 
 - Fit attainment and employment models

@@ -51,3 +51,29 @@ The interim file is excluded from Git. It can be reproduced from the official ar
 ## Restricted data boundary
 
 Restricted-use geocode and school-survey files have not been acquired. They must not be stored in this public GitHub repository. Any future request for restricted data will require a separate approved access process and secure storage plan.
+
+## Approved multi-source strategy
+
+- NLSY97 remains the primary individual longitudinal dataset and will be expanded
+  to documented race-by-gender comparisons.
+- ELS:2002 is the preferred supplementary cohort for validating broader STEM
+  curricular and school-context measures with later attainment, employment, and
+  earnings.
+- ACS five-year estimates and Opportunity Atlas are approved candidates for the
+  neighborhood extension, but an individual-level merge requires restricted
+  NLSY97 geographic identifiers and secure storage.
+- CPS ASEC may provide national benchmarks; PSID or SIPP may support a separate
+  robustness study. They cannot be merged person-to-person with NLSY97.
+
+See `docs/measurement_plan.md` for operational source and compatibility rules.
+
+## External-source acquisition status
+
+- Opportunity Atlas tract characteristics — **acquired and checksum-verified**;
+  74,044 tracts and 38 fields. See `docs/sources/opportunity_atlas.md`.
+- ELS:2002 public use — **extraction specification complete; official NCES
+  Online Codebook extract pending**. See `docs/sources/els2002.md`.
+- ACS five-year estimates — **indicator specification complete; pull deferred
+  until the restricted geography level and relevant years are known**. See
+  `docs/sources/acs_neighborhood.md`.
+- Machine-readable registry: `config/external_sources.json`.
