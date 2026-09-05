@@ -1,0 +1,1442 @@
+[
+  {
+    "reference": "R00001.00",
+    "question": "PUBID",
+    "wave": "1997",
+    "codebook_line": 800339,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R04899.00",
+    "question": "YINC-1400",
+    "wave": "1997",
+    "codebook_line": 969094,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R04900.00",
+    "question": "YINC-1500",
+    "wave": "1997",
+    "codebook_line": 969122,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R04901.00",
+    "question": "YINC-1600",
+    "wave": "1997",
+    "codebook_line": 969147,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R04902.00",
+    "question": "YINC-1700",
+    "wave": "1997",
+    "codebook_line": 969173,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12014.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "1997",
+    "codebook_line": 1143649,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12044.00",
+    "question": "CV_HGC_EVER",
+    "wave": "1997",
+    "codebook_line": 1143735,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12045.00",
+    "question": "CV_INCOME_GROSS_YR",
+    "wave": "1997",
+    "codebook_line": 1143782,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12046.00",
+    "question": "CV_HH_INCOME_SOURCE",
+    "wave": "1997",
+    "codebook_line": 1143828,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12049.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "1997",
+    "codebook_line": 1143951,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12054.00",
+    "question": "CV_HH_SIZE",
+    "wave": "1997",
+    "codebook_line": 1144132,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12057.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "1997",
+    "codebook_line": 1144252,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12091.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "1997",
+    "codebook_line": 1144945,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12093.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "1997",
+    "codebook_line": 1145174,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12094.01",
+    "question": "CV_INTERVIEW_DATE_M",
+    "wave": "1997",
+    "codebook_line": 1145203,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12094.02",
+    "question": "CV_INTERVIEW_DATE_Y",
+    "wave": "1997",
+    "codebook_line": 1145237,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R12361.00",
+    "question": "SAMPLING_WEIGHT",
+    "wave": "1997",
+    "codebook_line": 1151132,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R13024.00",
+    "question": "CV_HGC_BIO_DAD",
+    "wave": "1997",
+    "codebook_line": 1153399,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R13025.00",
+    "question": "CV_HGC_BIO_MOM",
+    "wave": "1997",
+    "codebook_line": 1153442,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R13026.00",
+    "question": "CV_HGC_RES_DAD",
+    "wave": "1997",
+    "codebook_line": 1153485,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R13027.00",
+    "question": "CV_HGC_RES_MOM",
+    "wave": "1997",
+    "codebook_line": 1153528,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R23409.00",
+    "question": "YINC-1400",
+    "wave": "1998",
+    "codebook_line": 1415275,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R23410.00",
+    "question": "YINC-1500",
+    "wave": "1998",
+    "codebook_line": 1415302,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R23411.00",
+    "question": "YINC-1600",
+    "wave": "1998",
+    "codebook_line": 1415327,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R23412.00",
+    "question": "YINC-1700",
+    "wave": "1998",
+    "codebook_line": 1415353,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25600.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "1998",
+    "codebook_line": 1459936,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25631.00",
+    "question": "CV_HGC_EVER",
+    "wave": "1998",
+    "codebook_line": 1460103,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25633.00",
+    "question": "CV_INCOME_GROSS_YR",
+    "wave": "1998",
+    "codebook_line": 1460264,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25635.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "1998",
+    "codebook_line": 1460357,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25637.00",
+    "question": "CV_HH_SIZE",
+    "wave": "1998",
+    "codebook_line": 1460433,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25640.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "1998",
+    "codebook_line": 1460556,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25680.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "1998",
+    "codebook_line": 1461563,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25682.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "1998",
+    "codebook_line": 1461856,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25683.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "1998",
+    "codebook_line": 1461886,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R25683.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "1998",
+    "codebook_line": 1461920,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R26003.00",
+    "question": "SAMPLING_WEIGHT",
+    "wave": "1998",
+    "codebook_line": 1468997,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R36499.00",
+    "question": "YINC-1400",
+    "wave": "1999",
+    "codebook_line": 1698425,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R36500.00",
+    "question": "YINC-1500",
+    "wave": "1999",
+    "codebook_line": 1698453,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R36501.00",
+    "question": "YINC-1600",
+    "wave": "1999",
+    "codebook_line": 1698478,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R36502.00",
+    "question": "YINC-1700",
+    "wave": "1999",
+    "codebook_line": 1698504,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38815.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "1999",
+    "codebook_line": 1752381,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38847.00",
+    "question": "CV_HGC_EVER",
+    "wave": "1999",
+    "codebook_line": 1752549,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38849.00",
+    "question": "CV_INCOME_GROSS_YR",
+    "wave": "1999",
+    "codebook_line": 1752710,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38851.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "1999",
+    "codebook_line": 1752803,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38853.00",
+    "question": "CV_HH_SIZE",
+    "wave": "1999",
+    "codebook_line": 1752879,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38856.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "1999",
+    "codebook_line": 1753001,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38897.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "1999",
+    "codebook_line": 1754010,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38901.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "1999",
+    "codebook_line": 1754302,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38903.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "1999",
+    "codebook_line": 1754333,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R38903.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "1999",
+    "codebook_line": 1754367,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R39237.00",
+    "question": "SAMPLING_WEIGHT",
+    "wave": "1999",
+    "codebook_line": 1761748,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R50986.00",
+    "question": "YINC-1400",
+    "wave": "2000",
+    "codebook_line": 2101048,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R50987.00",
+    "question": "YINC-1500",
+    "wave": "2000",
+    "codebook_line": 2101076,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R50988.00",
+    "question": "YINC-1600",
+    "wave": "2000",
+    "codebook_line": 2101101,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R50989.00",
+    "question": "YINC-1700",
+    "wave": "2000",
+    "codebook_line": 2101127,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54606.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2000",
+    "codebook_line": 2163089,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54639.00",
+    "question": "CV_HGC_EVER",
+    "wave": "2000",
+    "codebook_line": 2163257,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54641.00",
+    "question": "CV_INCOME_GROSS_YR",
+    "wave": "2000",
+    "codebook_line": 2163418,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54643.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2000",
+    "codebook_line": 2163511,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54645.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2000",
+    "codebook_line": 2163587,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54648.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "2000",
+    "codebook_line": 2163709,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54718.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2000",
+    "codebook_line": 2164722,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54722.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2000",
+    "codebook_line": 2165018,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54723.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2000",
+    "codebook_line": 2165050,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R54723.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2000",
+    "codebook_line": 2165084,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R55105.00",
+    "question": "SAMPLING_WEIGHT",
+    "wave": "2000",
+    "codebook_line": 2172188,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R68272.00",
+    "question": "YINC-1400",
+    "wave": "2001",
+    "codebook_line": 2547827,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R68273.00",
+    "question": "YINC-1500",
+    "wave": "2001",
+    "codebook_line": 2547855,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R68274.00",
+    "question": "YINC-1600",
+    "wave": "2001",
+    "codebook_line": 2547880,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R68275.00",
+    "question": "YINC-1700",
+    "wave": "2001",
+    "codebook_line": 2547906,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72242.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2001",
+    "codebook_line": 2620540,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72276.00",
+    "question": "CV_HGC_EVER",
+    "wave": "2001",
+    "codebook_line": 2620708,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72278.00",
+    "question": "CV_INCOME_GROSS_YR",
+    "wave": "2001",
+    "codebook_line": 2620869,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72280.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2001",
+    "codebook_line": 2620962,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72282.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2001",
+    "codebook_line": 2621038,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72285.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "2001",
+    "codebook_line": 2621161,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72356.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2001",
+    "codebook_line": 2622077,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72360.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2001",
+    "codebook_line": 2622340,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72361.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2001",
+    "codebook_line": 2622373,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R72361.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2001",
+    "codebook_line": 2622407,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R97929.00",
+    "question": "TRANS_GPA",
+    "wave": "HSTR",
+    "codebook_line": 2666611,
+    "construct": "Achievement (not quality)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98596.00",
+    "question": "TRANS_STATUS",
+    "wave": "HSTR",
+    "codebook_line": 2692837,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98602.00",
+    "question": "TRANS_MATHPIPE",
+    "wave": "HSTR",
+    "codebook_line": 2693032,
+    "construct": "STEM coursework",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98615.00",
+    "question": "TRANS_PHYS_SCI_PIPE",
+    "wave": "HSTR",
+    "codebook_line": 2693503,
+    "construct": "STEM coursework",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98617.00",
+    "question": "TRANS_SCI_PIPE",
+    "wave": "HSTR",
+    "codebook_line": 2693563,
+    "construct": "STEM coursework",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98642.00",
+    "question": "TRANS_TOT_LIFE_PHYS_SCI",
+    "wave": "HSTR",
+    "codebook_line": 2694508,
+    "construct": "STEM coursework",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98643.00",
+    "question": "TRANS_TOT_MATH",
+    "wave": "HSTR",
+    "codebook_line": 2694545,
+    "construct": "STEM coursework",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98646.00",
+    "question": "TRANS_TOT_ADV_MATH",
+    "wave": "HSTR",
+    "codebook_line": 2694656,
+    "construct": "STEM coursework",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98722.00",
+    "question": "TRANS_CRD_GPA_MATH",
+    "wave": "HSTR",
+    "codebook_line": 2697429,
+    "construct": "Achievement (not quality)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98724.00",
+    "question": "TRANS_CRD_GPA_LP_SCI",
+    "wave": "HSTR",
+    "codebook_line": 2697509,
+    "construct": "Achievement (not quality)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "R98725.00",
+    "question": "TRANS_PROBFLAG",
+    "wave": "HSTR",
+    "codebook_line": 2697549,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S10555.00",
+    "question": "YINC-1400",
+    "wave": "2002",
+    "codebook_line": 2993378,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S10556.00",
+    "question": "YINC-1500",
+    "wave": "2002",
+    "codebook_line": 2993406,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S10557.00",
+    "question": "YINC-1600",
+    "wave": "2002",
+    "codebook_line": 2993431,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S10558.00",
+    "question": "YINC-1700",
+    "wave": "2002",
+    "codebook_line": 2993457,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15380.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2002",
+    "codebook_line": 3104740,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15415.00",
+    "question": "CV_HGC_EVER",
+    "wave": "2002",
+    "codebook_line": 3104912,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15417.00",
+    "question": "CV_INCOME_GROSS_YR",
+    "wave": "2002",
+    "codebook_line": 3105073,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15419.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2002",
+    "codebook_line": 3105166,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15421.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2002",
+    "codebook_line": 3105241,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15424.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "2002",
+    "codebook_line": 3105363,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15504.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2002",
+    "codebook_line": 3106559,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15508.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2002",
+    "codebook_line": 3106916,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15509.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2002",
+    "codebook_line": 3106952,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S15509.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2002",
+    "codebook_line": 3106986,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20077.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2003",
+    "codebook_line": 3120970,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20113.00",
+    "question": "CV_HGC_EVER",
+    "wave": "2003",
+    "codebook_line": 3121142,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20115.00",
+    "question": "CV_INCOME_GROSS_YR",
+    "wave": "2003",
+    "codebook_line": 3121303,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20117.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2003",
+    "codebook_line": 3121396,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20119.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2003",
+    "codebook_line": 3121471,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20122.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "2003",
+    "codebook_line": 3121593,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20203.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2003",
+    "codebook_line": 3122700,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20207.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2003",
+    "codebook_line": 3123025,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20208.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2003",
+    "codebook_line": 3123055,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S20208.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2003",
+    "codebook_line": 3123089,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S31344.00",
+    "question": "YINC-1400",
+    "wave": "2003",
+    "codebook_line": 3407545,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S31345.00",
+    "question": "YINC-1600",
+    "wave": "2003",
+    "codebook_line": 3407573,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S31346.00",
+    "question": "YINC-1700",
+    "wave": "2003",
+    "codebook_line": 3407599,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38085.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2004",
+    "codebook_line": 3541574,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38122.00",
+    "question": "CV_HGC_EVER",
+    "wave": "2004",
+    "codebook_line": 3541745,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38125.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2004",
+    "codebook_line": 3541955,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38134.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2004",
+    "codebook_line": 3542000,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38137.00",
+    "question": "CV_HIGHEST_DEGREE_EVER",
+    "wave": "2004",
+    "codebook_line": 3542122,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38215.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2004",
+    "codebook_line": 3542944,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38219.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2004",
+    "codebook_line": 3543173,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38220.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2004",
+    "codebook_line": 3543200,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S38220.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2004",
+    "codebook_line": 3543234,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S47994.00",
+    "question": "YINC-1400",
+    "wave": "2004",
+    "codebook_line": 3830643,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S47995.00",
+    "question": "YINC-1600",
+    "wave": "2004",
+    "codebook_line": 3830671,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S47996.00",
+    "question": "YINC-1700",
+    "wave": "2004",
+    "codebook_line": 3830697,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S54089.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2005",
+    "codebook_line": 3955206,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S54129.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2005",
+    "codebook_line": 3955468,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S54130.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2005",
+    "codebook_line": 3955513,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S54218.01",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2005",
+    "codebook_line": 3956590,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S54219.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2005",
+    "codebook_line": 3956885,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S54220.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2005",
+    "codebook_line": 3956912,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S54220.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2005",
+    "codebook_line": 3956946,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S65008.00",
+    "question": "YINC-1400",
+    "wave": "2005",
+    "codebook_line": 4285936,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S65009.00",
+    "question": "YINC-1600",
+    "wave": "2005",
+    "codebook_line": 4285964,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S65010.00",
+    "question": "YINC-1700",
+    "wave": "2005",
+    "codebook_line": 4285990,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S75097.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2006",
+    "codebook_line": 4412562,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S75138.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2006",
+    "codebook_line": 4412824,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S75139.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2006",
+    "codebook_line": 4412869,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S75231.00",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2006",
+    "codebook_line": 4413913,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S75240.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2006",
+    "codebook_line": 4414235,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S75241.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2006",
+    "codebook_line": 4414262,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S75241.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2006",
+    "codebook_line": 4414296,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S84963.00",
+    "question": "YINC-1400",
+    "wave": "2006",
+    "codebook_line": 4725442,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S84964.00",
+    "question": "YINC-1600",
+    "wave": "2006",
+    "codebook_line": 4725470,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "S84965.00",
+    "question": "YINC-1700",
+    "wave": "2006",
+    "codebook_line": 4725496,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T00130.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2007",
+    "codebook_line": 4835757,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T00142.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2007",
+    "codebook_line": 4836019,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T00143.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2007",
+    "codebook_line": 4836064,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T00236.00",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2007",
+    "codebook_line": 4837013,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T00244.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2007",
+    "codebook_line": 4837305,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T00245.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2007",
+    "codebook_line": 4837329,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T00245.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2007",
+    "codebook_line": 4837363,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T08896.00",
+    "question": "YINC-1400",
+    "wave": "2007",
+    "codebook_line": 5147173,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T08897.00",
+    "question": "YINC-1600",
+    "wave": "2007",
+    "codebook_line": 5147201,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T08898.00",
+    "question": "YINC-1700",
+    "wave": "2007",
+    "codebook_line": 5147227,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T20159.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2008",
+    "codebook_line": 5259526,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T20163.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2008",
+    "codebook_line": 5259692,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T20164.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2008",
+    "codebook_line": 5259737,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T20185.00",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2008",
+    "codebook_line": 5260691,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T20193.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2008",
+    "codebook_line": 5260955,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T20194.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2008",
+    "codebook_line": 5260979,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T20194.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2008",
+    "codebook_line": 5261013,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T30028.00",
+    "question": "YINC-1400",
+    "wave": "2008",
+    "codebook_line": 5616855,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T30029.00",
+    "question": "YINC-1600",
+    "wave": "2008",
+    "codebook_line": 5616883,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T30030.00",
+    "question": "YINC-1700",
+    "wave": "2008",
+    "codebook_line": 5616909,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T36062.00",
+    "question": "CV_ENROLLSTAT",
+    "wave": "2009",
+    "codebook_line": 5726250,
+    "construct": "Attainment",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T36066.00",
+    "question": "CV_HH_POV_RATIO",
+    "wave": "2009",
+    "codebook_line": 5726416,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T36067.00",
+    "question": "CV_HH_SIZE",
+    "wave": "2009",
+    "codebook_line": 5726461,
+    "construct": "Socioeconomic context",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T36090.00",
+    "question": "CV_HRS_PER_WEEK.01",
+    "wave": "2009",
+    "codebook_line": 5727505,
+    "construct": "Employment (job-specific hours)",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T36099.00",
+    "question": "CV_INTERVIEW_CMONTH",
+    "wave": "2009",
+    "codebook_line": 5727798,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T36100.01",
+    "question": "CV_INTERVIEW_DATE~M",
+    "wave": "2009",
+    "codebook_line": 5727822,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T36100.02",
+    "question": "CV_INTERVIEW_DATE~Y",
+    "wave": "2009",
+    "codebook_line": 5727856,
+    "construct": "Timing and design",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T44058.00",
+    "question": "YINC-1400",
+    "wave": "2009",
+    "codebook_line": 6009865,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T44059.00",
+    "question": "YINC-1600",
+    "wave": "2009",
+    "codebook_line": 6009892,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  },
+  {
+    "reference": "T44060.00",
+    "question": "YINC-1700",
+    "wave": "2009",
+    "codebook_line": 6009918,
+    "construct": "Earnings",
+    "status": "candidate; timing, eligibility and coding review required"
+  }
+]
