@@ -4,19 +4,31 @@
 
 | Measure | Primary operational rule | Role |
 |---|---|---|
-| Average household-income rank | Mean within-wave percentile rank of real income across observed ages 15–17 | Primary class predictor |
+| Average household-income rank | Mean survey-weighted percentile rank of nominal household income within survey-year and age across observed ages 15–17 | Primary class predictor |
 | Average poverty ratio | Mean NLSY97 income-to-poverty ratio across ages 15–17 | Predictor/component |
 | Proportion of years in poverty | Eligible observed ages below 100% of poverty divided by observed eligible ages | Predictor/component |
-| Income instability | Within-person variation in transformed real income; require at least two observations | Separate predictor/component |
+| Income instability | Within-person standard deviation of annual household-income rank; require at least two observations | Separate predictor/component |
 | Low parental education | Highest available parent/guardian education is high school/GED or less | Predictor/control |
-| Household joblessness | Proportion of observed periods with no employed co-residing adult, if supported | Predictor/component |
-| Public-assistance exposure | Proportion of observed periods with selected household benefit receipt | Predictor/component |
+| Household joblessness | Baseline indicator that the responding parent was not employed and no employed spouse was present; this is a parent-household proxy, not an all-adult measure | Predictor/component |
+| Public-assistance exposure | Baseline parent report of any prior-year AFDC, food-stamp, or SSI receipt by the parent or spouse | Predictor/component |
 | Socioeconomic-risk index | Mean of available sign-aligned standardized components with a minimum count | Main composite predictor |
 
 Ages 10–17 are not the primary window because NLSY97 does not observe every
 respondent throughout it. Ages 15–17 provide a common pre-outcome window; ages
 12–17 are a sensitivity analysis. ACS and CPS cannot produce within-person
 adolescent averages for NLSY97 respondents.
+
+The current risk index averages available sign-aligned z-scores for low income
+rank, low poverty ratio, poverty persistence, low parental education, baseline
+public assistance, and baseline parent-household joblessness. At least four of
+six components are required. The components remain available separately because
+income rank and poverty measures overlap conceptually; PCA/CFA and alternative
+component sets are planned sensitivity analyses rather than replacements for the
+approved construct.
+
+NLSY97 cumulative-cases cross-sectional weights are used only to calculate
+survey-year-by-age household-income ranks at this stage. The final weight for
+multi-round outcome models remains a modeling-gate decision.
 
 ## STEM educational quality
 

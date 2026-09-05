@@ -22,10 +22,13 @@ Each milestone should end with runnable code, updated documentation, and a focus
 - Convert survey rounds into person-age records — **completed**
 - Retain ages 15–23 — **completed**
 - Audit duplicate and missing person-age observations — **age coverage and duplicate audit completed; interview-status attrition audit remains**
+- Expand to approved race-by-gender comparison groups — **completed**
 
 ## Milestone 4 — Construct development
 
-- Build socioeconomic-risk indicators and index
+- Build socioeconomic-risk indicators and index — **completed for the current public-use specification; 3,926 respondents meet the four-component minimum**
+- Extract resolved socioeconomic fields for ages 15–17 — **completed; raw values only**
+- Resolve public-assistance, household-joblessness, and final weight fields — **baseline public-assistance and parent-household joblessness proxies resolved; cumulative-cases weights used for age-year income ranks; final longitudinal model weight remains pending**
 - Clean the public-use STEM transcript coursework component — **completed**
 - Decide whether additional authorized data are needed to represent institutional STEM quality — **pending**
 - Derive attainment, employment, and earnings outcomes

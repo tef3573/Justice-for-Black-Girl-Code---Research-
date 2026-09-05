@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "name": "Opportunity Atlas tract characteristics",
+      "role": "neighborhood context",
+      "status": "acquired",
+      "local_file": "data/raw/opportunity_atlas/tract_covariates.csv",
+      "rows": 74044,
+      "columns": 38,
+      "merge_key": "2010 state-county-tract FIPS after restricted NLSY97 linkage",
+      "individual_merge_allowed": false
+    },
+    {
+      "name": "ELS:2002 Base Year through Third Follow-up public use",
+      "role": "separate STEM measurement validation cohort",
+      "status": "official extraction pending",
+      "merge_key": null,
+      "individual_merge_allowed": false
+    },
+    {
+      "name": "ACS five-year estimates",
+      "role": "neighborhood context",
+      "status": "approved; geography and year selection pending",
+      "merge_key": "FIPS geography and reference year",
+      "individual_merge_allowed": false
+    }
+  ]
+}
