@@ -1,8 +1,6 @@
-# Day 2 — Observed-age cohort scaffold
+# Observed-age cohort scaffold
 
-Day 2 construction is complete. This is an unweighted demographic/interview-age
-scaffold, not the final model-ready dataset. Educational, employment, earnings,
-weighting and item-missingness work remains for later stages.
+The observed ages cohort construction is complete. This is an unweighted demographic/interview-age scaffold, not the final model-ready dataset. Educational, employment, earnings, weighting and item-missingness work remains for later stages.
 
 ## Reproduce
 

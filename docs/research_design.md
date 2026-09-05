@@ -37,12 +37,20 @@ on source coding and effective sample size.
 Respondents contribute observations from ages 15–23. Ages 15–17 form the common
 adolescent exposure window; earlier ages may be used in sensitivity analyses.
 Age 23 is the primary outcome point. Prior-calendar-year income reported at age 23
-will be labeled accordingly.
+will be labeled accordingly. Age-24/25 measures may provide supplementary
+within-program checkpoints where coverage permits.
 
 The pathway is: socioeconomic risk → STEM educational quality → educational
 attainment → labor-market attachment → earnings. Neighborhood disinvestment
 remains a structural exposure for a geographic-data extension; household measures
 will not be relabeled as neighborhood conditions.
+
+The explanatory and inferential research period ends at age 25 to remain within
+the program's age-5-to-25 scope. Records after age 25 are not additional exposures
+or extensions of the focal developmental population. They are used only as future
+outcome labels for a distinct supervised prediction analysis asking whether
+conditions observed by age 23 or 25 predict later upward movement in economic,
+social-class, or professional position.
 
 ## Combined hypothesis
 
@@ -99,10 +107,28 @@ respondent's missing values.
 
 Methods include survey-weighted descriptions, race-by-gender interactions and
 planned contrasts, attainment and multinomial labor-force models, a two-part
-earnings model, generalized structural equation/path modeling, multiple
-imputation with complete-case sensitivity analysis, and elastic net as a
-complementary predictive analysis.
+earnings model, generalized structural equation/path modeling, mechanism-specific
+multiple imputation with complete-case sensitivity analysis, and elastic net as
+a complementary predictive analysis. Outcomes, race/gender classifications,
+transcript noncollection, and bracket-only exact earnings will not be imputed.
+Eligible item-level predictors may be imputed within their observed data
+structures; predictive preprocessing for machine learning will be fitted inside
+each training fold.
 
 Primary estimates are associational. Restricted data must never enter the public
 repository. Interview-status variables are existing quantitative metadata used
 to measure attrition; this project does not conduct interviews or collect surveys.
+
+## Predictive upward-mobility extension
+
+The prediction analysis will freeze all features at a declared cutoff. An age-25
+target model may use information observed only through age 23; models for later
+adult horizons may use information observed only through age 25. Post-cutoff
+earnings, household income, occupational position, and related measures serve
+only as labels used to train and evaluate predictions.
+
+Primary targets are future economic-position rank and an indicator that future
+rank exceeds adolescent household-income rank by at least 10 percentile points.
+Quintile transitions are secondary targets. Professional advancement may be added
+only after a defensible occupation-status measure is specified. The model will be
+described as prediction, not causal estimation or guaranteed future mobility.

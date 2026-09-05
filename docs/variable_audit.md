@@ -1,16 +1,16 @@
-# Day 3 — Candidate-variable audit (2026-09-04)
+# Candidate-variable audit 
 
 ## What is clean, and what is not
 
-Day 2 produced an age-filtered, deduplicated demographic scaffold. It did not
-clean or harmonize substantive predictors/outcomes. Day 3 maps exact codebook
+The candidate variable audit produced an age-filtered, deduplicated demographic scaffold. It did not
+clean or harmonize substantive predictors/outcomes. The audit maps exact codebook
 references, inventories coding and timing risks, and profiles raw availability.
 No values are recoded, imputed, standardized, indexed, or merged into the panel.
 No charts, models or substantive research findings are produced.
 
 ## Principal finding: measurement scope
 
-The initial Day 3 audit is complete: 180 candidate variable-wave entries, an
+The initial audit is complete: 180 candidate variable-wave entries, an
 official-codebook crosswalk, raw availability profiles, and ten passing automated
 tests across Days 2 and 3. This is not completion of substantive data cleaning.
 

@@ -63,3 +63,19 @@ economic gradients remain important secondary estimates.
 
 Interview completion, retention, and weights are existing quantitative fields.
 Using them does not involve conducting interviews or collecting new responses.
+
+## Upward-mobility prediction boundary
+
+The main explanatory measures remain within age 25. For prediction, features are
+frozen at age 23 when predicting age-25 position and at age 25 when predicting
+later position. Records after age 25 provide labels only.
+
+The primary future economic target is percentile rank in real individual labor
+earnings, averaged within a prespecified later age window when repeated
+observations are available. Primary upward mobility is future earnings rank minus
+average adolescent household-income rank. A gain of at least 10 percentile points
+is the primary binary target; 5- and 20-point definitions and quintile transitions
+are sensitivity outcomes. Adult household/family-income rank is a robustness
+target because it is more comparable to adolescent household income. A
+professional-position target will be added only after occupation codes can be
+mapped consistently to a documented occupational-status measure.

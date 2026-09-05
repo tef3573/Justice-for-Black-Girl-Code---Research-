@@ -1,0 +1,19 @@
+{
+  "series_id": "CUUR0000SA0",
+  "series": "CPI-U, U.S. city average, all items, not seasonally adjusted",
+  "reference_base": "1982-84=100",
+  "source": "U.S. Bureau of Labor Statistics Public Data API",
+  "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0",
+  "retrieved": "2026-09-05",
+  "target_year": 2025,
+  "annual_average": {
+    "2001": 177.1,
+    "2002": 179.9,
+    "2003": 184.0,
+    "2004": 188.9,
+    "2005": 195.3,
+    "2006": 201.6,
+    "2007": 207.342,
+    "2025": 321.943
+  }
+}

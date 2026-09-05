@@ -4,8 +4,8 @@
 
 This stage creates a respondent-level component for six public-use high-school
 transcript measures. It cleans math/science progression and credit fields for the
-1,166 respondents identified as Black and female at baseline. The component is
-intended for a later documented merge with the 1,163-person age-eligible panel.
+8,924 respondents represented in the approved race-by-gender comparison panel.
+The component is intended for a later documented respondent-level analysis merge.
 It does not contain age-varying exposures, achievement outcomes, employment,
 earnings, survey weights, imputations, an index, model estimates, or findings.
 
@@ -47,7 +47,7 @@ construct remains under review, and the approved research question is unchanged.
 
 ## Validation
 
-The builder requires one output row per focal respondent; unique respondent IDs;
+The builder requires one output row per comparison-cohort respondent; unique respondent IDs;
 allowed transcript-status, pipeline, and flag values; and no observed coursework
 for records without a collected transcript. Eight focused tests cover ordinal
 conversion, substantive zeros, implied decimals, no-course zeros, distinct
@@ -56,7 +56,7 @@ repository test suite is rerun after installation.
 
 ## Generated outputs
 
-- `data/processed/stem_transcript_clean.csv`: one row per baseline focal respondent.
+- `data/processed/stem_transcript_clean.csv`: one row per comparison-cohort respondent.
 - `outputs/tables/stem_cleaning_validation.json`: aggregate counts and field-status
   distributions.
 
@@ -91,20 +91,7 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 
 ## Verified processing counts
 
-- Baseline focal respondents retained: 1,166.
-- Collected transcripts: 838 (184 from collection wave 1; 654 from wave 2).
-- Noncollected transcripts: 328, retained with missing coursework values.
-- Among collected transcripts, official problem flag: 106 yes and 732 no.
-- Math, physical-science, and combined-science pipeline fields: 838 observed and
-  328 no-transcript records each.
-- Total math credits: 790 observed, 5 no-course zeros, 19 credits missing,
-  24 invalid/pre-high-school, and 328 no transcript.
-- Total science credits: 775 observed, 18 no-course zeros, 21 credits missing,
-  24 invalid/pre-high-school, and 328 no transcript.
-- Advanced-math credits: 467 observed, 329 no-course zeros, 18 credits missing,
-  24 invalid/pre-high-school, and 328 no transcript.
-
-All status distributions reconcile to 1,166. The 838 collected transcript
-records reconcile to the problem-flag counts. These are unweighted processing
-counts before the age-panel merge, problem-flag sensitivity rule, outcome
-eligibility, missing-data treatment, and statistical analysis.
+The verified comparison-cohort processing counts are generated in
+`outputs/tables/stem_cleaning_validation.json`. They are unweighted processing
+counts before outcome eligibility, problem-flag sensitivity, missing-data
+treatment, and statistical analysis.
