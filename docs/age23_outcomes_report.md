@@ -1,10 +1,10 @@
-# Age-23 outcome construction report
+# Age-23-to-25 outcome construction report
 
 ## Purpose
 
-This pipeline constructs the three primary age-23 outcomes: educational
-attainment, employment access, and labor earnings. The file contains one record
-for every comparison-panel respondent observed at age 23. These are constructed
+This pipeline constructs educational attainment, employment access, and labor
+earnings at ages 23, 24, and 25. Age 23 remains the common primary checkpoint;
+ages 24 and 25 are supplementary within-program endpoints. These are constructed
 outcomes, not research findings.
 
 ## Analytic population
@@ -15,6 +15,18 @@ outcomes, not research findings.
 
 Race-by-gender group labels are retained for planned comparisons, with Black
 girls and young Black women remaining the focal population.
+
+## Checkpoint coverage
+
+| Age | Person-age records | Attainment observed | Employment observed | Earnings status observed | Exact real earnings observed |
+|---:|---:|---:|---:|---:|---:|
+| 23 | 7,149 | 7,103 | 7,096 | 7,106 | 5,792 |
+| 24 | 7,129 | 7,084 | 7,087 | 7,091 | 5,921 |
+| 25 | 7,057 | 7,006 | 7,013 | 7,032 | 6,036 |
+
+Age 25 has 92 fewer observed respondents than age 23, while exact-earnings
+availability improves. This supports age 23 as the primary common checkpoint and
+age 25 as a strong supplementary outcome rather than a replacement.
 
 ## Educational attainment
 
@@ -82,7 +94,9 @@ topcode flags are unavailable in the current extract.
 - `src/build_age23_outcomes.py`: reproducible construction pipeline
 - `config/cpi_u_annual.json`: annual CPI-U values and source metadata
 - `data/processed/age23_outcomes.csv`: respondent-level outcomes
+- `data/processed/age23_25_outcomes.csv`: long-format ages 23–25 checkpoints
 - `outputs/tables/age23_outcomes_validation.json`: validation summary
+- `outputs/tables/age23_25_outcomes_validation.json`: checkpoint validation
 - `tests/test_build_age23_outcomes.py`: routing and classification tests
 
 ## Modeling implications
@@ -95,5 +109,5 @@ topcode flags are unavailable in the current extract.
   by log real earnings among respondents with positive exact earnings.
 - The earnings period is the previous calendar year, not necessarily the exact
   respondent age-23 year.
-- Final survey weights, attrition treatment, missing-data rules, and the merged
-  analysis sample remain unresolved; therefore Milestone 6 is not yet open.
+- Final survey weights and attrition treatment remain unresolved; therefore
+  Milestone 6 is not yet open.
