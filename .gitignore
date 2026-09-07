@@ -2,9 +2,11 @@
 data/raw/*
 data/interim/*
 data/processed/*
+data/final/*
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
+!data/final/.gitkeep
 
 # Safety fallback if working data are placed beneath documentation
 docs/data/*
