@@ -99,9 +99,11 @@ or later missingness indicators to impute or engineer predictors. Missing future
 labels reduce the evaluable prediction sample and require a separately reported
 retention/selection analysis; future labels themselves will not be imputed.
 
-## Remaining dependency
+## Implementation status
 
-The rules are finalized, but imputation and selection-weight estimation must wait
-until interview-status attrition fields and the final survey-weight strategy are
-added. The current complete-case flags permit descriptive auditing but do not by
-themselves eliminate selection bias.
+The dependency is resolved. Survey design and attrition fields are finalized,
+and 50 predictor-only chained-equation imputations have been generated and
+validated. Socioeconomic-risk and STEM coursework-rigor indices are reconstructed
+inside every imputation. The stacked file is for statistical modeling with
+Rubin's-rule pooling; machine-learning preprocessing must still be refitted
+inside each training fold to prevent leakage.
