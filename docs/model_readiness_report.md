@@ -2,11 +2,17 @@
 
 ## Executive decision
 
-Milestones 1 and 3 are substantially complete. Milestone 2 has a reproducible
-candidate-variable specification but still requires final approval of several
-operational measures. Milestones 4 and 5 are partially complete. Statistical
-modeling must not begin until the blocked items below are resolved and a final
-analysis dataset is validated.
+Milestones 1 and 3 are substantially complete. The socioeconomic-risk,
+STEM-coursework, and age-23 outcome pipelines are now implemented and validated.
+Milestones 2, 4, and 5 remain partial because the final survey design, attrition,
+institutional STEM-quality extension, and attrition analysis remain unresolved.
+The respondent-level merge and missing-data plan are complete. Statistical
+modeling must not begin until the remaining blocked
+items are resolved and a final analysis dataset is validated.
+
+Post-25 mobility labels are not a gate for Milestone 6. They belong to the
+separate Milestone 7 prediction extension and cannot be used as explanatory
+features in the within-age-25 statistical analysis.
 
 This is a readiness decision, not a substantive research result.
 
@@ -15,31 +21,22 @@ This is a readiness decision, not a substantive research result.
 | Milestone | Status | Evidence | Remaining work |
 |---|---|---|---|
 | 1 — Repository foundation | Complete with safety warning | Research design, documented structure, reproducible scripts, tests, and ignore rules | Keep raw/generated data out of Git; restore the canonical `data/` location when convenient |
-| 2 — Extraction specification | Partial | Exact-reference candidate audit and codebook-linked profiles | Finalize employment, weights, interview status, socioeconomic index inputs, and outcome timing |
+| 2 — Extraction specification | Partial | Exact-reference candidate audit, codebook-linked profiles, and resolved age-23 outcomes | Finalize weights and interview status |
 | 3 — Cohort construction | Substantially complete | 1,166-person focal cohort and 8,348 person-age records | Add interview status before calling missing age records attrition |
-| 4 — Construct development | Partial | STEM transcript coursework cleaned | Clean socioeconomic risk, attainment, employment, earnings, inflation adjustment; resolve neighborhood and institutional-quality scope |
-| 5 — Descriptive analysis | Partial | Preliminary sample-flow, age-coverage, and STEM-missingness tables | Add weights, formal attrition, class comparisons, outcomes, and final weighted tables |
+| 4 — Construct development | Substantially complete | Socioeconomic risk, STEM transcript coursework, attainment, employment, and real earnings cleaned | Resolve neighborhood and institutional-quality scope and evaluate alternative socioeconomic-index specifications |
+| 5 — Descriptive analysis | Partial | Preliminary sample flow plus merged-sample and race-by-gender missingness tables | Add weights, formal attrition, class comparisons, and final weighted tables |
 
 ## What is needed before Milestone 6
 
 ### Required data work
 
-1. **Socioeconomic risk and class:** finalize 4–6 indicators, their adolescent
-   exposure window, coding direction, missingness rules, and index method.
-2. **Educational attainment:** select age-aligned highest grade, degree, and
-   enrollment variables and define the age-23 outcome hierarchy.
-3. **Employment access:** derive employed, unemployed, and not-in-labor-force
-   status. A single job's hours cannot represent employment access.
-4. **Earnings:** use routing variables to distinguish zero earnings from missing
-   earnings; select the correct prior-year reference period; document topcoding;
-   convert monetary values to constant dollars.
-5. **Survey design:** select the appropriate longitudinal or custom weight and
+1. **Survey design:** select the appropriate longitudinal or custom weight and
    document how standard errors will account for the survey design.
-6. **Attrition:** add interview-status variables and compare observed versus
+2. **Attrition:** add interview-status variables and compare observed versus
    unavailable respondents using baseline covariates.
-7. **Final merge:** produce one versioned analysis dataset with audited merge
-   counts, unique keys, temporal-order checks, and an analysis-specific sample
-   flow.
+3. **Apply the missing-data plan:** implement imputation and selection-weight
+   sensitivity procedures only after survey-weight and attrition fields are
+   available. The rules and eligibility flags are already documented.
 
 ### Measurement decisions that cannot be hidden
 
@@ -52,7 +49,7 @@ This is a readiness decision, not a substantive research result.
 - The available demographic field records sex at baseline and does not measure
   the full range of gender identities.
 
-## Recommended Milestone 6 model sequence
+## Milestone 6 model sequence
 
 After the gates pass, begin with interpretable statistical models before machine
 learning:
@@ -67,6 +64,11 @@ learning:
 
 Elastic net belongs in Milestone 7 as a complementary prediction and variable-
 selection analysis. It should not replace the interpretable pathway models.
+
+For upward-mobility prediction, features must be frozen by age 23 or 25 before
+constructing later labels. Post-cutoff data may define targets and evaluate the
+model but must not enter preprocessing, imputation, feature selection, or index
+construction.
 
 ## Go/no-go rule
 
