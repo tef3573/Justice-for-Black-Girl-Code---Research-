@@ -10,6 +10,29 @@ missing. Outcome-specific eligibility flags define reproducible analytic samples
 The dataset is final with respect to its current cleaned components, but model
 estimation remains gated on survey-weight and attrition work.
 
+The same 7,149-row age-23 base now includes suffixed age-24 and age-25
+supplementary checkpoint columns. Respondents missing a later checkpoint remain
+in the file with explicit `age24_record_matched` and `age25_record_matched` flags.
+
+The file now also includes checkpoint-specific `SAMPLING_WEIGHT_CC`, `VSTRAT`,
+and `VPSU` fields for ages 23–25. All age-23 rows have primary design fields;
+6,400 match age-24 weights and 6,292 match age-25 weights. The aliases
+`analysis_weight`, `analysis_vstrat`, and `analysis_vpsu` point to the primary
+age-23 design.
+
+## Frozen model-ready version
+
+Milestone 5D freezes `model_ready_imputations_v1.csv.gz` and
+`analysis_base_complete_case_v1.csv.gz`. The imputed file uses the unique key
+`respondent_id + imputation_id + checkpoint_age` and contains 992,050 rows:
+357,450 at age 23, 320,000 at age 24, and 314,600 at age 25. Each checkpoint is
+normalized to the same outcome and survey-design column names, which prevents
+accidental use of later-checkpoint suffixes.
+
+The freeze manifest records source and output SHA-256 checksums, schema, row
+counts, eligibility counts, temporal boundaries, and validation results. No
+post-25 field appears in the frozen data.
+
 ## Merge structure
 
 The age-23 outcomes file is the merge base. Socioeconomic-risk summaries and
@@ -25,12 +48,24 @@ high-school STEM transcript measures are joined one-to-one by `respondent_id`.
 The 62 respondents without a socioeconomic summary record remain in the dataset
 with an explicit unmatched flag.
 
+## Supplementary checkpoint matches on the age-23 base
+
+| Checkpoint | Matched | Attainment | Employment | Earnings status | Exact real earnings |
+|---|---:|---:|---:|---:|---:|
+| Age 24 | 6,400 | 6,360 | 6,363 | 6,369 | 5,352 |
+| Age 25 | 6,292 | 6,247 | 6,258 | 6,269 | 5,406 |
+
+These counts are lower than the full age-specific panels because the merged
+analysis dataset deliberately retains the established age-23 base. Respondents
+observed only at age 24 or 25 are not silently added to the primary sample.
+
 ## Temporal ordering
 
 - Socioeconomic-risk exposure: ages 15–17
 - STEM coursework: high-school transcript history
-- Attainment and employment: observed at the age-23 interview
-- Earnings: previous calendar year reported at the age-23 interview
+- Primary attainment and employment: observed at the age-23 interview
+- Supplementary attainment and employment: observed at ages 24 and 25
+- Earnings: previous calendar year reported at each checkpoint interview
 
 The merge validation rejects duplicate respondent keys, demographic conflicts,
 records outside age 23, and invalid socioeconomic exposure-window counts.

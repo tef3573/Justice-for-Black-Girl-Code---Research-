@@ -48,6 +48,20 @@ The first focused file, `data/interim/nlsy97_core_cohort.csv`, contains 8,984 re
 
 The interim file is excluded from Git. It can be reproduced from the official archive with `src/build_core_cohort.py`.
 
+## Within-program checkpoint extension
+
+- `data/interim/nlsy97_comparison_age15_25.csv`: 77,069 unique person-age
+  records across 8,928 respondents.
+- `data/processed/age23_25_outcomes.csv`: 21,335 long-format outcome records;
+  7,149 at age 23, 7,129 at age 24, and 7,057 at age 25.
+- `data/processed/analysis_dataset.csv`: retains the 7,149-person age-23 base and
+  adds age-24 and age-25 supplementary checkpoint columns with explicit match
+  flags.
+
+Age 23 remains the common primary checkpoint. Ages 24 and 25 are supplementary
+within the program boundary. Records after age 25 are reserved for future
+prediction labels and are not part of these explanatory extracts.
+
 ## Restricted data boundary
 
 Restricted-use geocode and school-survey files have not been acquired. They must not be stored in this public GitHub repository. Any future request for restricted data will require a separate approved access process and secure storage plan.
