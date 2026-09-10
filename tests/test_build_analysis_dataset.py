@@ -1,6 +1,6 @@
 import unittest
 
-from build_analysis_dataset import eligible_flags, merge, missingness_tables
+from build_analysis_dataset import add_checkpoint_weights, add_supplementary_checkpoints, eligible_flags, merge, missingness_tables
 
 
 class AnalysisDatasetTests(unittest.TestCase):
@@ -39,6 +39,25 @@ class AnalysisDatasetTests(unittest.TestCase):
         groups, patterns = missingness_tables([row])
         self.assertEqual(groups[0]["respondents"], 1)
         self.assertEqual(patterns[0]["missingness_pattern"], "complete_on_audited_fields")
+
+    def test_supplementary_checkpoint_is_suffixed(self):
+        row = self.base()
+        checkpoint = dict(self.base(), age="25", attainment_level="4")
+        add_supplementary_checkpoints([row], [checkpoint])
+        self.assertEqual(row["age25_record_matched"], 1)
+        self.assertEqual(row["attainment_level_age25"], "4")
+        self.assertEqual(row["age24_record_matched"], 0)
+
+    def test_checkpoint_weights_set_primary_design(self):
+        row = self.base()
+        weights = [{"respondent_id": "1", "age": str(age), "survey_year": "2005",
+                    "sampling_weight_cc": "1000", "vstrat": "12", "vpsu": "1",
+                    "rni_code": "60", "rni_category": "completed"}
+                   for age in (23, 24, 25)]
+        add_checkpoint_weights([row], weights)
+        self.assertEqual(row["analysis_weight"], "1000")
+        self.assertEqual(row["analysis_vstrat"], "12")
+        self.assertEqual(row["sampling_weight_cc_age25"], "1000")
 
 
 if __name__ == "__main__":
